@@ -7,7 +7,7 @@ client = bigquery.Client(project="ice-data-project")
 # This returns the first 5 rows with ALL (106) columns
 query = """
     SELECT *
-    FROM `ice-data-project.ice_data_clean.all_info_12`
+    FROM `ice-data-project.ice_data_clean.master_50k_12`
     LIMIT 5
 """
 
