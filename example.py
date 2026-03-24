@@ -44,7 +44,7 @@ spec_query = """
         decisions.RCA_DECISION_DATE AS decisions_RCA_DECISION_DATE,
         detentions.Ethnicity AS detentions_Ethnicity,
         removals.`MSC Charge` AS `removals_MSC Charge`
-    FROM `ice-data-project.ice_data_clean.all_info_12`
+    FROM `ice-data-project.ice_data_clean.master_50k_12`
     LIMIT 5
 """
 print("Fetching targeted columns from BigQuery...")
