@@ -2,6 +2,12 @@ data/**/*.xlsx
 data/**/*.csv
 data/**/*.zip
 
+*.csv
+*.gz
+*.zip
+*.parquet
+*.xlsx
+
 __pycache__/
 *.pyc
 .env
